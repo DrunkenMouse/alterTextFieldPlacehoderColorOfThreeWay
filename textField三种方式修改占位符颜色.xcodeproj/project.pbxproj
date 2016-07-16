@@ -15,6 +15,7 @@
 		163CA21C1D36711000551101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CA21A1D36711000551101 /* LaunchScreen.storyboard */; };
 		163CA2271D36711000551101 /* textField___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA2261D36711000551101 /* textField___________Tests.m */; };
 		163CA2321D36711000551101 /* textField___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA2311D36711000551101 /* textField___________UITests.m */; };
+		163CA24A1D374F7F00551101 /* UITextField+placeholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA2491D374F7F00551101 /* UITextField+placeholderColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		163CA22D1D36711000551101 /* textField三种方式修改占位符颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "textField三种方式修改占位符颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163CA2311D36711000551101 /* textField___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "textField___________UITests.m"; sourceTree = "<group>"; };
 		163CA2331D36711000551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA2481D374F7F00551101 /* UITextField+placeholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+placeholderColor.h"; sourceTree = "<group>"; };
+		163CA2491D374F7F00551101 /* UITextField+placeholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+placeholderColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				163CA21A1D36711000551101 /* LaunchScreen.storyboard */,
 				163CA21D1D36711000551101 /* Info.plist */,
 				163CA20C1D36711000551101 /* Supporting Files */,
+				163CA2481D374F7F00551101 /* UITextField+placeholderColor.h */,
+				163CA2491D374F7F00551101 /* UITextField+placeholderColor.m */,
 			);
 			path = "textField三种方式修改占位符颜色";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				163CA2141D36711000551101 /* ViewController.m in Sources */,
+				163CA24A1D374F7F00551101 /* UITextField+placeholderColor.m in Sources */,
 				163CA2111D36711000551101 /* AppDelegate.m in Sources */,
 				163CA20E1D36711000551101 /* main.m in Sources */,
 			);
@@ -501,6 +507,7 @@
 				163CA2381D36711000551101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		163CA2391D36711000551101 /* Build configuration list for PBXNativeTarget "textField三种方式修改占位符颜色Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				163CA23B1D36711000551101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		163CA23C1D36711000551101 /* Build configuration list for PBXNativeTarget "textField三种方式修改占位符颜色UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				163CA23E1D36711000551101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
